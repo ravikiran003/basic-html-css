@@ -12,6 +12,20 @@ html {
     font-family: 'Open Sans', sans-serif;
 }
 
+body::-webkit-scrollbar {
+    width: 8px;               
+  }
+  
+  body::-webkit-scrollbar-track {
+    background: #60a9ff;    
+  }
+  
+  body::-webkit-scrollbar-thumb {
+    background-color: #f7f5f0;    
+    border-radius: 20px;       
+    /* border: 3px solid transparent;  */
+  }
+
 .panel {
     background-color: white;
     border-radius: 10px;
@@ -22,6 +36,7 @@ html {
     flex-direction: column;
     text-align: center;
     text-transform: uppercase;
+    box-shadow: 1px 2px 10px 3px #256D85;
 }
 
 .pricing-plan{
@@ -85,7 +100,9 @@ html {
 }
 
 .pricing-button:hover, .pricing-button:focus{
-    background-color: #e1f1ff;
+    /* background-color: #e1f1ff; */
+    background-color: #269aff;
+    color: white;
 }
 
 .pricing-button.is-featured:hover,.pricing-button.is-featured:focus {
