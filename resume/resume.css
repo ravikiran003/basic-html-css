@@ -1,0 +1,133 @@
+h1 {
+    color: #303db5;
+    text-shadow: 2px 2px 2px #CCCCCC; 
+    
+}
+
+h2 {
+    text-align: center;
+    font-family: 'Times New Roman';
+    color: #D0F8FF;
+    text-shadow: 0 0 5px #1a0531, 0 0 10px #1e373c,
+        0 0 20px #30b75b, 0 0 30px #A5F1FF,
+        0 0 40px #A5F1FF;
+}
+
+div {
+    margin: auto;
+    font-size: larger;
+    background-image: url(https://bluerock.marketing/wp-content/uploads/2018/01/AdobeStock_115404083-1024x640.jpeg);
+    width: 62.5rem;
+    color: aliceblue;
+    border-radius: 0.625rem;
+   overflow: auto;
+}
+
+#img-allign {
+    width: 33.75rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+
+.nav {
+    background-color: black;
+    padding: 1.875rem;
+    padding: auto;
+    border-radius: 0.5rem;
+    
+
+
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 0.625rem;
+}
+
+
+#phn {
+    background-image: url(https://i.pinimg.com/originals/45/3f/14/453f143ad31ed8482ebed9c4084b8059.jpg);
+    border-radius: 0.625rem;
+    margin: auto;
+    float: left;
+    margin-bottom: auto;
+    width: 30%;
+    color: black;
+}
+#mail {
+    background-image: url(https://i.pinimg.com/originals/45/3f/14/453f143ad31ed8482ebed9c4084b8059.jpg);
+    border-radius: 0.625rem;
+    margin: auto;
+    float: right;
+    margin-bottom: auto;
+    width: 30%;
+    color: black;
+    
+}
+#address {
+    background-image: url(https://i.pinimg.com/originals/45/3f/14/453f143ad31ed8482ebed9c4084b8059.jpg);
+    border-radius: 0.625rem;
+    margin: auto;
+    margin-bottom: auto;
+    width: 30%; 
+    color: black;
+    
+}
+
+#p {
+    color: darkblue;
+    text-align: center;
+    text-shadow: 1px 1px;
+}
+#e {
+    color: darkblue;
+    text-align: center;
+    text-shadow: 1px 1px;
+}
+#add {
+    color: darkblue;
+    text-align: center;
+    text-shadow: 1px 1px;
+}
+
+.logo{
+    width: 1.5625rem;
+}
+.footer{
+    background-color: rgb(72, 67, 170);
+    color: aliceblue;
+    padding: 0.3125rem;
+
+}
+h4{
+    text-align: center;
+}
+#footer{
+    text-align: center;
+    
+}
+#foot_head{
+    text-align: center;
+    font-size: 125%;
+}
+#copyright{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 90%;
+}
+#fb{
+    width: 2.1875rem;
+}
+@media(max-width:63rem)
+{
+    html{
+        font-size: 100%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+}
